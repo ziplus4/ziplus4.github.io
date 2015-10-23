@@ -15,22 +15,22 @@ jekyll를 설치하기에 앞서 `sudo gem update --system` 으로 gem 업데이
 아래 명령으로 username.github.io 디렉토리 생성한다.
 username은 github의 username을 사용한다.
 
-~~~
+{% highlight bash %}
 jekyll new username.github.io
 cd username.github.io
 jekyll serve --watch
-~~~
+{% endhighlight %}
 
 브라우저에서 http://127.0.0.1:4000/ 으로 접속하여 기본 페이지를 볼 수 있다.
 
 # github에 push
-~~~
+{% highlight bash %}
 git init
 git remote add origin remote_url
 git add .
 git commit -m "init blog"
 git push origin master
-~~~
+{% endhighlight %}
 
 몇 분 후 브라우저를 통해 https://username.github.io 접속할 수 있다.
 
