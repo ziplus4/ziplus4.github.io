@@ -32,6 +32,7 @@ Command "python setup.py egg_info" failed with error code 1 in /private/var/fold
 
 # Ubuntu의 경우
 libmysqlclient-dev를 설치한다.
+
 ~~~
 sudo apt-get install libmysqlclient-dev
 ~~~
